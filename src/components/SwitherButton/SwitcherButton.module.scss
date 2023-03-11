@@ -1,0 +1,33 @@
+.switcher {
+    &__element {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding: 8px 12px;
+        cursor: pointer;
+
+        &_active {
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            background: #ffffff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+      }
+    
+      &__img {
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+      }
+    
+      &__label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 15px;
+        transform: translateY(1px);
+        color: #4D5562;
+      }
+}
